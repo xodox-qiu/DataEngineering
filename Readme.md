@@ -1,7 +1,7 @@
 # DATA-ENGINEERING  
 # Proyek : Analisis Keterkaitan Temperature (Suhu) Permukaan dengan Produksi Perikanan Air Tawar Tahunan
 
-Proyek ini dikembangkan untuk menganalisis korelasi antara pola suhu permukaan dengan hasil produksi perikanan air tawar tahunan di Indonesia. Tujuan utama proyek adalah memahami hubungan antara suhu permukaan dan jumlah produksi ikan air tawar, serta memberikan rekomendasi untuk peningkatan efektivitas penggunaan atau penyesuaian suhu yang ada. Proyek ini mengintegrasikan data suhu permukaan dari Google Earth Engine (CFSR: Climate Forecast System Reanalysis) dan data produksi perikanan budidaya dari Badan Pusat Statistik (BPS) untuk tahun 2023, dengan analisis dilakukan per provinsi. Selain itu, proyek ini juga bertujuan menghasilkan laporan analisis yang mengidentifikasi korelasi antara suhu dan produksi ikan, serta mengidentifikasi pola perubahan tahunan untuk mendukung pengambilan keputusan oleh Kementerian Kelautan dan Perikanan.
+-Proyek ini dikembangkan untuk menganalisis korelasi antara pola suhu permukaan dengan hasil produksi perikanan air tawar tahunan di Indonesia. Tujuan utama proyek adalah memahami hubungan antara suhu permukaan dan jumlah produksi ikan air tawar, serta memberikan rekomendasi untuk peningkatan efektivitas penggunaan atau penyesuaian suhu yang ada. Proyek ini mengintegrasikan data suhu permukaan dari Google Earth Engine (CFSR: Climate Forecast System Reanalysis) dan data produksi perikanan budidaya dari Badan Pusat Statistik (BPS) untuk tahun 2023, dengan analisis dilakukan per provinsi. Selain itu, proyek ini juga bertujuan menghasilkan laporan analisis yang mengidentifikasi korelasi antara suhu dan produksi ikan, serta mengidentifikasi pola perubahan tahunan untuk mendukung pengambilan keputusan oleh Kementerian Kelautan dan Perikanan.
 ---
 
 ## Manfaat Data / Use Case  
@@ -17,7 +17,7 @@ Proyek ini dikembangkan untuk menganalisis korelasi antara pola suhu permukaan d
 Data hasil ETL disimpan dalam format PostgreSQL yang bersih dan terstruktur. Data ini siap digunakan untuk analisis eksploratif serta visualisasi tren menggunakan PowerBI untuk menemukan pola dan korelasi.
 
 ## Serving Machine Learning  
-Dataset bersih digunakan untuk membangun model regresi guna memprediksi produksi ikan nila tahun 2023 di Indonesia berdasarkan fitur Provinsi (diencode menggunakan LabelEncoder) dan Temperature Tahun 2023. Proyek ini mengimplementasikan Random Forest Regressor untuk prediksi produksi ikan nila. Model dievaluasi menggunakan metrik Mean Squared Error (MSE) dan R² Score, serta divalidasi melalui visualisasi scatter plot (prediksi vs aktual) dan plot feature importance untuk menganalisis kontribusi fitur terhadap prediksi.
+-Dataset bersih digunakan untuk membangun model regresi guna memprediksi produksi ikan nila tahun 2023 di Indonesia berdasarkan fitur Provinsi (diencode menggunakan LabelEncoder) dan Temperature Tahun 2023. Proyek ini mengimplementasikan Random Forest Regressor untuk prediksi produksi ikan nila. Model dievaluasi menggunakan metrik Mean Squared Error (MSE) dan R² Score, serta divalidasi melalui visualisasi scatter plot (prediksi vs aktual) dan plot feature importance untuk menganalisis kontribusi fitur terhadap prediksi.
 ---
 
 ## Transform ( Pembersihan & Transformasi )   
