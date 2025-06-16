@@ -14,7 +14,7 @@ Proyek ini dikembangkan untuk menganalisis korelasi antara pola suhu permukaan d
 ---
 
 ## Serving Analisis  
-Data hasil ETL disimpan dalam format PostgreSQL yang bersih dan terstruktur. Data ini siap digunakan untuk analisis eksploratif serta visualisasi tren menggunakan perangkat lunak seperti Looker untuk menemukan pola dan korelasi.
+Data hasil ETL disimpan dalam format PostgreSQL yang bersih dan terstruktur. Data ini siap digunakan untuk analisis eksploratif serta visualisasi tren menggunakan PowerBI untuk menemukan pola dan korelasi.
 
 ## Serving Machine Learning  
 Dataset bersih digunakan untuk membangun model regresi guna memprediksi produksi ikan nila tahun 2023 di Indonesia berdasarkan fitur Provinsi (diencode menggunakan LabelEncoder) dan Temperature Tahun 2023. Proyek ini mengimplementasikan Random Forest Regressor untuk prediksi produksi ikan nila. Model dievaluasi menggunakan metrik Mean Squared Error (MSE) dan R² Score, serta divalidasi melalui visualisasi scatter plot (prediksi vs aktual) dan plot feature importance untuk menganalisis kontribusi fitur terhadap prediksi.
