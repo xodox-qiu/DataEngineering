@@ -85,6 +85,6 @@ Dataset bersih digunakan untuk membangun model regresi guna memprediksi produksi
 | Nama Lengkap                     | NIM         | Peran                |
 |----------------------------------|-------------|----------------------|
 | Alif Rahmathul J                 | 234311030   | Data Analyst         |
-| Fajar Hakiki                     | 234311041   | Data Engineer        |
-| Frezy Ananta D. Tertiya          | 234311045   | Project Manager      |
-| Lyan Fairus                  	   | 234311050   | Data Analyst    	|
+| Frezy Ananta D. Tertiya          | 234311039   | Data Engineer        |
+| Fajar Hakiki                     | 234311040   | Project Manager      |
+| Lyan Fairus                  	   | 234311044   | Data Analyst        	|
